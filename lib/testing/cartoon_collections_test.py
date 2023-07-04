@@ -9,9 +9,6 @@ import sys
 class TestCartoonCollections:
     '''Module cartoon_collections.py'''
 
-    # OTHER_DELI = ["Logan", "Avi", "Spencer"]
-    # ANOTHER_DELI = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
-
     def test_roll_call_dwarves(self):
         '''prints out the 7 dwarfs in a numbered list'''
         captured_out = io.StringIO()
